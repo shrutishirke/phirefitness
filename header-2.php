@@ -19,7 +19,7 @@
 
 
 <body <?php body_class(); ?>>
-<?php $image_url ='http://publicdomainvectors.org/photos/pitr_green_menu_icon_set_1.png'; ?> 
+
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'codediva' ); ?></a>
@@ -60,7 +60,7 @@
 		</nav><!-- #site-navigation -->
 		<div class="site-branding container">
         	<?php if (get_header_image() != '') { ?>
-				<img src="<?php echo header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php get_bloginfo('name'); ?>" />
+	<?php $image_url ='http://publicdomainvectors.org/photos/pitr_green_menu_icon_set_1.png'; ?> 			<img src="<?php echo header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php get_bloginfo('name'); ?>" />
             <?php } else { ?>
             	<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
