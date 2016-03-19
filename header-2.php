@@ -17,7 +17,10 @@
 ?>
 </head>
 
+
 <body <?php body_class(); ?>>
+<?php $image_url ='http://publicdomainvectors.org/photos/pitr_green_menu_icon_set_1.png'; ?> 
+
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'codediva' ); ?></a>
 
@@ -40,7 +43,7 @@
 				);			
 			} ?>
 
-			<?php $image_url ='http://publicdomainvectors.org/photos/pitr_green_menu_icon_set_1.png'; ?> 
+			
 
 
 
