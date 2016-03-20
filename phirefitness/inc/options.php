@@ -106,6 +106,7 @@ function my_theme_options_page(){
   </form>
   <?php
 }
+}
 
 add_action( 'admin_init', 'phirefitness_settings_init' );
 
