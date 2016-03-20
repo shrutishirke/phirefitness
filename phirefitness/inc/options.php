@@ -15,6 +15,10 @@ add_settings_section(
   'theme_options'
   
 );
+function phirefitness_options_page_section_callback() { 
+		echo 'A description and detail about the section.';
+	}
+
 
 add_settings_field(
   'phirefitness_radio_field',
