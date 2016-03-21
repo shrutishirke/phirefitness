@@ -15,3 +15,5 @@ add_settings_section(
   'theme_options'
   
 );
+
+<?php
