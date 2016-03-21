@@ -188,13 +188,23 @@ width: 80px;
 background-color: #000000;
 }
 
+.site-info{
+float:right;
+text-align: right;
+width: 1000px;
+}
+
 p.copyright{
 float:right;
+text-align: right;
 width: 25%; 
 }
 .credits
 {
 float:right;
+text-align: right;
+width: 1000px;
+line-height: 1%;
 	}
 .hentry {
 font-size: 15px;
