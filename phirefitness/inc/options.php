@@ -13,7 +13,4 @@ add_settings_section(
   'Your section description',
   'phirefitness_options_page_selection_callback',
   'theme_options'
-  
 );
-
-
