@@ -53,8 +53,24 @@ html {
 	-ms-text-size-adjust:     100%;
 }
 
+#primary 
+{
+	background: #C0C0C0; 
+	float: left; 
+	width: 63%; 
+	border: 10px solid #848484;
+	padding-right: 2%;
+
+}
+
+
 body {
-	margin: 0;
+	font-family: 'Gill Sans', Gill Sans MT, sans-serif;
+	text-align: center;
+	background: #404040;
+	
+
+	
 }
 
 article,
@@ -112,11 +128,130 @@ dfn {
 	font-style: italic;
 }
 
-h1 {
-	font-size: 2em;
+h1 
+{
+	font-size: 5em;
 	margin: 0.67em 0;
+	color: #FF1919; 
+	text-align: center;
+	text-transform: none;
+	font-family: 'Lobster', cursive;
+}
+h2
+{
+	font-size: 1em;
+	color: #0A0A0A; 
+	text-align: center;
+	text-transform: none;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 4px;
+	}
+
+
+h3.widget-title
+{
+color: #FF1919;
+}
+h3 a:active
+{
+color: #FF1919;
+}
+h3 a:visited
+{
+color: #FF1919; 
+}
+#site-navigation
+{
+background-color: #D3D3D3; 
+}
+#site-navigation a:visited
+{
+color: #0A0A0A;
+}
+#site-navigation a 
+{
+color: #0A0A0A; 
 }
 
+.fadein
+{
+height: 80px;
+width: 80px;
+}
+
+	
+	
+
+/*Footer */
+
+#colophon{
+background-color: #000000;
+}
+
+p.copyright{
+float:right;
+width: 25%; 
+}
+.credits
+{
+float:right;
+	}
+.hentry {
+font-size: 15px;
+}
+.postimage:hover{
+opacity:0.4;
+}
+.container {
+float: none;
+display: inline-block;
+max-width: 100%;
+}
+#footer-menu{
+float: left;
+}
+img:hover 
+{
+	opacity: 0.6; 
+}
+article#post-32.post-32.page.type-page.status-publish.hentry
+{
+	display: none; 
+}
+#grid 
+{
+	overflow: hidden; 
+	float: center; 
+	height: 250px;
+	width: 300px; 
+
+}
+
+
+.home .hentry 
+{
+	margin: 0 1.8em 6.5em; 
+	padding: 0; 
+	float:left; 
+	width: 40%; 
+	display: inline-block; 
+}
+#menu-main 
+{ 
+	text-align: center;
+}
+
+.widget-title{
+font-size: 2em;
+color: #FFFAFA;
+}
+p.phone-number 
+{
+	display: none; 
+}
+.content-area{
+float: center;
+}
 mark {
 	background: #ff0;
 	color: #000;
@@ -224,11 +359,6 @@ input[type="number"]::-webkit-outer-spin-button {
 	height: auto;
 }
 
-input[type="search"] {
-	-webkit-appearance: textfield;
-	box-sizing: content-box;
-}
-
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none;
@@ -285,6 +415,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+
 }
 
 p {
@@ -356,9 +487,7 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
-}
+
 
 blockquote:before,
 blockquote:after,
@@ -384,9 +513,7 @@ ol {
 	margin: 0 0 1.5em 3em;
 }
 
-ul {
-	list-style: disc;
-}
+
 
 ol {
 	list-style: decimal;
@@ -530,14 +657,14 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #FF1919;
 }
 
-a:visited {
-	color: purple;
-}
 
-a:hover,
+
+a:hover{
+	color:#6666FF; 
+}
 a:focus,
 a:active {
 	color: midnightblue;
@@ -759,11 +886,18 @@ a:active {
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
+	width: 33%;
+	padding-right: 2%;
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #C0C0C0;
+
 }
 
 /* Make sure select elements fit in widgets. */
 .widget select {
-	max-width: 100%;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -923,4 +1057,124 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+/* Responsive Design */
+@media screen and (max-width: 750px){ /*Referred to in class exercise*/
+#primary,
+#sidebar,
+#colophon,
+#footer-menu
+{
+height: auto;
+margin: auto; 
+float: none; 
+width: 100%; 
+}
+.container, .copyright, .credits
+{
+width: 100%; 
+}
+p.copyright
+{
+float: right; 
+width: 100%; 
+text-align:right;
+}
+
+/*Referred to codediva homepage*/ 
+
+#menu-main-items
+{
+position: absolute; 
+top: 60px; 
+width: 100%;
+}
+.main-navigation ul /*removes the menu buttons */ 
+{
+display:none;
+width:100%;
+}
+
+.main-navigation.menu ul li
+{
+width: 100%;
+}
+.main-navigation li
+{
+float: none;
+padding: 0 5px;
+position: relative;
+text-align:left;
+}
+.main-navigation
+{
+background-color: transparent; 
+font-size: 23px;
+height: 65px;
+padding: 10px 20px;
+}
+.menu-toggle:hover 
+{
+box-shadow: none;
+text-shadow: none;
+color: #F5DEB3; 
+border-color: transparent; 
+}
+.main-navigation ul li a   /* style of the items unordered list in the drop down menu */ 
+{
+color:#800000; 
+}
+.main-navigation ul.children /*pseudo class */
+{
+float:none;
+background-color:transparent;
+width:100%
+}
+.menu-toggle, .main-navigation.toggled ul
+{
+display: block;
+text-align:center;
+background-color: transparent;  
+box-shadow: none;  
+border-color: transparent; 
+}
+body,input, select, textarea 
+{
+font-size: 15px;
+}
+button
+{
+font-size: 15px; 
+color: #F5DEB3; 
+}
+.widget
+{
+float: center;
+}
+#footer-widgets
+{
+width:100%;
+text-align: center; 
+}
+.foot-menu
+{
+text-align: center; 
+}
+ul
+{
+list-style: none; /* removes the disc style to the list */ 
+}
+li
+{
+text-align: center; 
+}
+.site-info 
+{
+width:100%;
+}
+.main-navigation.toggled ul ul
+{
+display:none;
+width:100%;
+}
 }
