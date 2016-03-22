@@ -7,6 +7,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
+ The code below runs a loop to allow users to leave comments in the comments-area, it creates a comments-area for the webpage, it displays the newer comments before the older ones if there are any. If comments are closed, and there are comments, a note saying that comments are closed is displayed on the webpage. 
  * @package phirefitness
  */
 
