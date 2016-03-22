@@ -30,6 +30,8 @@
 <img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image4.jpg" alt="">
 <img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image5.jpg" alt="">
 <img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image6.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image7.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image8.jpg" alt="">
 
 </figure>
 </div>
