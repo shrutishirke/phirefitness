@@ -225,3 +225,30 @@ require get_template_directory() . '/inc/jetpack.php';
 
 require get_stylesheet_directory() . '/inc/options.php';
 
+/**
+ *This funciton connects and loads the theme options page. 
+ */
+
+require get_stylesheet_directory() . '/inc/options.php';
+
+/**
+ * This function is expected to display the information from the theme options page. 
+ 
+ * $options = get_option('phirefitness_options_settings' );
+echo $options['phirefitness_text_field'] .'<br/>';
+if (isset($options['phirefitness_checkbox_field']) == 'on'){
+  echo $options['phirefitness_checkbox_field'] .'<br/>';
+
+} else {
+  echo ' <br/>';
+
+}
+
+
+echo $options['phirefitness_text_field'] .'<br/>';
+echo $options['phirefitness_select_field'];
+
+
+ * 
+ */
+
