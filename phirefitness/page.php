@@ -10,6 +10,9 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package phirefitness
+ 
+ The following loop states that if there are posts, display them on the "primary section" of the site, which is the body. It
+ also says that if there are comments, load them, if not end the loop. The code states that if get the template parts associated with the content such as the page - for example, specific fonts etc used for posts within pages. 
  */
 
 get_header(); ?>
