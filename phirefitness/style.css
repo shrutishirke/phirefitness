@@ -520,19 +520,22 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.0em 2em;
+	text-align: left;
+	
 }
 
 
 
 ol {
 	list-style: decimal;
+	text-align: left;
 }
 
 li > ul,
 li > ol {
 	margin-bottom: 0;
-	margin-left: 1.5em;
+	margin-left: 0.1em;
 }
 
 dt {
@@ -1090,6 +1093,17 @@ float: right;
 width: 100%; 
 text-align:right;
 }
+
+div .site-branding.container 
+	 {
+		margin: 4px; 
+		font-size: 0.7em; 
+		width: 100%; 
+	 }
+p.phone-number 
+	{
+		display: block; 
+	}
 
 /*Referred to codediva homepage*/ 
 
