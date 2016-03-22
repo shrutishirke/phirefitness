@@ -148,6 +148,10 @@ h2
 	font-family: 'Lobster', cursive;
 	letter-spacing: 4px;
 	}
+.entry-title
+{
+font-size: 1em; 
+}
 
 
 h3.widget-title
@@ -183,6 +187,8 @@ width: 80px;
 /*--------------------------------------------------------------
 ## Slider
 --------------------------------------------------------------*/
+/* Obtained from https://codepen.io/dudleystorey/pen/ehKpi */ 
+/* To make the slider images move to the left from right */  
  @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -212,7 +218,6 @@ div#photoslideshow figure {
   margin: 0;
   left: 0;
 }
-
 div#photoslideshow figure img { 
 float: center; 
 width: 10%; 
@@ -269,16 +274,16 @@ article#post-32.post-32.page.type-page.status-publish.hentry
 	display: none; 
 }
 #grid 
-{
-	overflow: hidden; 
-	float: center; 
+{ 
+	overflow: hidden;
+	float: left; 
 	height: 250px;
 	width: 300px; 
 
 }
 
 
-.home .hentry 
+.home .hentry
 {
 	margin: 0 1.8em 6.5em; 
 	padding: 0; 
@@ -290,7 +295,11 @@ article#post-32.post-32.page.type-page.status-publish.hentry
 { 
 	text-align: center;
 }
-
+h1.entry-title
+{
+overflow: hidden; 
+position: absolute; 
+}
 .widget-title{
 font-size: 2em;
 color: #FFFAFA;
@@ -747,15 +756,17 @@ width: 100%
 
 }
 
-#site-navigation {
-width: 100%;
-display: inline-block;
+.main-navigation { 
+float: left; 
+width: 100%; 
+display: block; 
+clear: both; 
 text-align: center;
 font-family: 'Arial';
-margin: 0 0 3px 0;
+margin: 0 auto;
 letter-spacing: 1px;
+background-color: #A9A9A9; 
 }
-
 
 .main-navigation ul {
 	display: none;
@@ -767,6 +778,7 @@ letter-spacing: 1px;
 .main-navigation li {
 	float: left;
 	position: relative;
+	background-color: #A9A9A9;
 }
 
 .main-navigation a {
@@ -1238,7 +1250,7 @@ button
 font-size: 15px; 
 color: #F5DEB3; 
 }
-.widget
+#sidebar
 {
 float: center;
     width: 100%;
@@ -1277,6 +1289,97 @@ display:none;
 width:100%;
 }
 }
+/* Smartphones - Landscape Source: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints */
 
+@media screen and (max-width: 640px)
+{
+ #primary 
+	{
+		width: 100%; 
+	}
+	 
+	 #masthead, #content, #colophon
+	{
+		display: block; 
+		width: 100%; 
+		overflow: hidden;
+	}
+	
+	 .home .hentry 
+	{
+		padding: 15px; 
+		float: none; 
+		width: 70%; 
+		display: block; 
+	}
+	
+	#sidebar 
+	{
+		display: block; 
+		width: 90%; 
+		padding: 4px; 
+	}
+	
+	p.phone-number 
+	{
+		display: block; 
+	}
+	
+.widget-title{
+font-size: 1em;
+}
+
+}
+/* -- Tablet - Portrait Source: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints------- */
+/* Referred to Lab 4 slides */
+	
+@media screen (min-width: 768px) and (max-width: 1024px) 
+{
+	
+	 #masthead, #content, #colophon
+	 {
+		display: block; 
+		float: none; 
+		width: 100%; 
+		overflow: hidden; 
+	 }
+	 
+	 div .site-branding.container 
+	 {
+		font-size: 1em; 
+		width: 100%; 
+		margin: 4px; 
+	 }
+	 
+	 #primary 
+	 {
+		width: 100%; 
+	 }
+	 
+p.phone-number 
+	{
+		display: block; 
+	}
+
+.widget-title{
+font-size: 1em;
+}
+
+ .home .hentry 
+	{
+		padding: 15px; 
+		float: none; 
+		width: 85%; 
+		display: block; 
+	}
+	
+		#sidebar
+	{
+		display:block; 
+		width: 90%; 
+		padding: 4px; 
+	} 
+
+}
 
 
