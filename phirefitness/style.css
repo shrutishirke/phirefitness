@@ -179,6 +179,43 @@ height: 80px;
 width: 80px;
 }
 
+/* Slider Source Code: https://codepen.io/dudleystorey/pen/ehKpi */
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { 
+margin: 0; 
+} 
+
+div#photoslideshow { 
+overflow: hidden; 
+}
+
+div#photoslideshow figure { 
+  position: relative;
+  font-size: 0;
+  text-align: left;
+  animation: 30s slidy infinite; 
+  width: 500%;
+  margin: 0;
+  left: 0;
+}
+
+div#photoslideshow figure img { 
+float: center; 
+width: 10%; 
+
+}
 	
 	
 
