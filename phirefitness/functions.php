@@ -15,9 +15,6 @@
  */
  
 
-
-
-
 // This function registers the footer menu automatically using an array to provide custom menu assisstance in the theme
 
 register_nav_menus ( array 
