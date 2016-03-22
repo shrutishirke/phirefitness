@@ -4,6 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
+ This code will display the results in search pages, when it goes through all the content to find what the user is looking for. Think of this as a bookmark that selects all the possible results and puts them in a page. According to the code, this would be entry meta. All the links will be made clickable through the .entry meta variable so the user can click on the results that are displayed in teh entry-summary page. 
  * @package phirefitness
  */
 
