@@ -64,6 +64,8 @@ html {
 }
 
 
+
+
 body {
 	font-family: 'Gill Sans', Gill Sans MT, sans-serif;
 	text-align: center;
@@ -160,10 +162,8 @@ h3 a:visited
 {
 color: #FF1919; 
 }
-#site-navigation
-{
-background-color: #D3D3D3; 
-}
+
+
 #site-navigation a:visited
 {
 color: #0A0A0A;
@@ -179,9 +179,11 @@ height: 80px;
 width: 80px;
 }
 
-/* Slider Source Code: https://codepen.io/dudleystorey/pen/ehKpi */
 
-@keyframes slidy {
+/*--------------------------------------------------------------
+## Slider
+--------------------------------------------------------------*/
+ @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
 25% { left: -100%; }
@@ -216,19 +218,20 @@ float: center;
 width: 10%; 
 
 }
-	
-	
 
-/*Footer */
 
-#colophon{
-background-color: #000000;
-}
 
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
 .site-info{
 float:right;
 text-align: right;
 width: 1000px;
+}
+#colophon{
+background-color: #000000;
 }
 
 p.copyright{
@@ -252,7 +255,7 @@ opacity:0.4;
 .container {
 float: none;
 display: inline-block;
-max-width: 100%;
+width: 100%;
 }
 #footer-menu{
 float: left;
@@ -732,12 +735,27 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+
+
+
+
+
+.div.site-branding.container
+{
+display: inline-block;
+width: 100%
+
 }
+
+#site-navigation {
+width: 100%;
+display: inline-block;
+text-align: center;
+font-family: 'Arial';
+margin: 0 0 3px 0;
+letter-spacing: 1px;
+}
+
 
 .main-navigation ul {
 	display: none;
@@ -754,6 +772,8 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	
+	
 }
 
 .main-navigation ul ul {
@@ -1108,8 +1128,13 @@ object {
 .gallery-caption {
 	display: block;
 }
-/* Responsive Design */
+
+/*--------------------------------------------------------------
+## Responsive Design
+--------------------------------------------------------------*/
+
 @media screen and (max-width: 750px){ /*Referred to in class exercise*/
+
 #primary,
 #sidebar,
 #colophon,
@@ -1141,7 +1166,6 @@ p.phone-number
 	{
 		display: block; 
 	}
-
 /*Referred to codediva homepage*/ 
 
 #menu-main-items
@@ -1149,11 +1173,17 @@ p.phone-number
 position: absolute; 
 top: 60px; 
 width: 100%;
+
+
 }
 .main-navigation ul /*removes the menu buttons */ 
 {
 display:none;
 width:100%;
+}
+
+h1.entry-title{
+font-size: 2.5em;
 }
 
 .main-navigation.menu ul li
@@ -1211,7 +1241,7 @@ color: #F5DEB3;
 .widget
 {
 float: center;
- width: 100%;
+    width: 100%;
     padding-left: 18px;
     padding: 4%; 
     min-width: 180px;
@@ -1223,6 +1253,7 @@ float: center;
 {
 width:100%;
 text-align: center; 
+
 }
 .foot-menu
 {
@@ -1246,3 +1277,6 @@ display:none;
 width:100%;
 }
 }
+
+
+
