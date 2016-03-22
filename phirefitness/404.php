@@ -4,6 +4,8 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
+ 
+ The code below is responsible for letting the user know that the page they requested is not found. Also, it displays a search form, where the user is given a chance to search for what they are looking for and even given a few links below from recent posts/categories (10). Even the monthly archives are displayed, along with a Tag Cloud that may help the user in find what they are looking for. The loop states that fid nothing is found, the message that nothing is found will be displayed along with all the search options such as the search bar displayed wtihin the "primary" section of the page - that is the same section where posts are displayed.
  * @package phirefitness
  */
 
