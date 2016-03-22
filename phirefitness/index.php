@@ -14,6 +14,9 @@
 
 get_header(); ?>
 
+/* Index.php is the main homepage for the theme. Below, ids are given to the main content area where the posts will go inside. The front page is given a header, and if there is a title given to the page it is automatically displayed in index.php. The loop 
+statement is created so if the user wants only posts to appear on the front page that is possible, the loop states that if the user has not chosen if they want to put the posts on the front page, the posts will automatically display in post format in index.php the homepage. If there are no posts, in the conditional statement it says that none will be printed if this is the case */
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
