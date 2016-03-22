@@ -3,7 +3,9 @@
  * Template part for displaying a message that posts cannot be found.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
- *
+ * 
+ The following conditional statement below searches the page-content to see if the user has any posts, if nothing is found,
+ it prints "ready to publish your first post?" for the user. If the user is unable to find that they are looking for a set of messages are sent in the front end which in the end reccomend the user to search for the respective content their looking for. 
  * @package phirefitness
  */
 
