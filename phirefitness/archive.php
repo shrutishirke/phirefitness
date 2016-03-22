@@ -4,6 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
+ Archive.php is the theme's directory. This is a page with all your archived entries or posts. The loop below bascially matches each query string to type to see which page is being requested by the user. The loop searches for files that have specific names in the theme's directory and uses the content that first matches the template-parts file as seen in the hierarchy. If no posts are written/published, none will be displayed or fetched using template-parts. 
  * @package phirefitness
  */
 
