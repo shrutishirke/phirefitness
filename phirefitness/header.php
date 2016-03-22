@@ -19,7 +19,21 @@
 
 <?php wp_head(); ?>
 </head>
+<body>
 
+
+<div id="photoslideshow">
+<figure>
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image1.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image2.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image3.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image4.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image5.jpg" alt="">
+<img src="http://phoenix.sheridanc.on.ca/~ccit3424/wp-content/themes/phirefitness/images/image6.jpg" alt="">
+
+</figure>
+</div>
+</body>
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'phirefitness' ); ?></a>
