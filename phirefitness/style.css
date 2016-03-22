@@ -1,10 +1,11 @@
 /*
-Theme Name: phirefitness
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
+* Theme Name: phirefitness
+* Theme URI: https://phoenix.sheridanc.on.ca/~ccit3424/
+* Description: PhireFitness Theme File
+* Authors/Contributors: Mayank Sharma, Nayab Safdar and Shruti Shirke (MSN Developers)
+* Version: 1.0 03/22/2016
+* Author URI: https://phoenix.sheridanc.on.ca/~ccit3424/
+
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: phirefitness
@@ -299,6 +300,11 @@ h1.entry-title
 {
 overflow: hidden; 
 position: absolute; 
+text-align: left;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.5em;
+display: inherit;
 }
 .widget-title{
 font-size: 2em;
@@ -1143,9 +1149,10 @@ object {
 
 /*--------------------------------------------------------------
 ## Responsive Design
---------------------------------------------------------------*/
+--------------------------------------------------------------
+ Referred to in class exercise */
 
-@media screen and (max-width: 750px){ /*Referred to in class exercise*/
+@media screen and (max-width: 750px){
 
 #primary,
 #sidebar,
@@ -1195,7 +1202,7 @@ width:100%;
 }
 
 h1.entry-title{
-font-size: 2.5em;
+font-size: 1.2em;
 }
 
 .main-navigation.menu ul li
@@ -1256,7 +1263,7 @@ float: center;
     width: 100%;
     padding-left: 18px;
     padding: 4%; 
-    min-width: 180px;
+    min-width: 200px;
     max-width: 280px;
      margin-left: 5px;
     margin-top: 4%;
@@ -1381,5 +1388,3 @@ font-size: 1em;
 	} 
 
 }
-
-
