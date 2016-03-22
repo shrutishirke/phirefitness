@@ -3,7 +3,8 @@
  * The template for displaying search results pages.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
+ * 
+ This code is responsible for printing the search results for the entire theme. The search results are designed with a body, header and the main content area such as posts here. The loop searches for the results based on what the user has inputted and it calls the entire theme to see if what the user is looking for is there. If nothing is found, the loop ends and goes back to content template parts which is mostly the main front page of posts. 
  * @package phirefitness
  */
 
