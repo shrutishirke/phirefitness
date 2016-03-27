@@ -790,6 +790,7 @@ background-color: #A9A9A9;
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 15px 2pc; /*Modified after submitting our theme assignment */
 	
 	
 }
